@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus-release</id>
 	      <name>TechLink Academy Releases Nexus Repository</name>
-	      <url>http://localhost:8003/repository/castpro-release/</url>
+	      <url>http://nexus:8081/repository/castpro-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus-snapshot</id>
 	      <name>TechLink Academy Snapshot Nexus Repository </name>
-	      <url>http://localhost:8003/repository/castpro-snapshot/</url>
+	      <url>http://nexus:8081/repository/castpro-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
